@@ -98,7 +98,11 @@ z-index: 2;
 @supports (-webkit-touch-callout: none) {
 @media screen and (max-width: 1000px) and (orientation: portrait){
 #base { zoom: 150%; left:5px; top: 10px; overflow: auto; overflow: scroll; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+html{
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  }
 }}
 
 @media screen and (min-width: 1700px) and (orientation: landscape){
@@ -114,7 +118,11 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 @supports (-webkit-touch-callout: none) {
 @media screen and (max-width: 2000px) and (orientation: portrait){
 #base { zoom: 150%; left:30px; top: 20px; overflow: auto; overflow: scroll; }
-html { font-size: 200%; }
+html{
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  }
 }}
 
 @media screen and (min-width: 3000px) and (orientation: landscape){
