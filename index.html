@@ -87,38 +87,29 @@ z-index: 2;
  }
 
 @media screen and (min-width: 1000px){
-#everything { position: absolute;  left: 340px; top: 6px; }
-#base { overflow: auto; overflow: scroll; }
+#base { left: 340px; top: 6px; overflow: auto; overflow: scroll; }
 }
 
 @media screen and (max-width: 1000px) and (orientation: portrait){
-#everything { position: absolute;  zoom: 200%; left:10px; top: 10px; }
-#base { overflow: auto; overflow: scroll; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+#base { zoom: 200%; left:-5px; top: 80px; overflow: auto; overflow: scroll; }
 }
 
 @media screen and (min-width: 1700px) and (orientation: landscape){
-#everything { position: absolute; zoom: 130%;
+#base { position: absolute; zoom: 130%;
 	left:430px;
 	top:30px; }
 }
 @media screen and (min-width: 2000px) and (orientation: landscape){
-#everything { position: absolute; zoom: 100%;}
-}
-@media screen and (max-width: 2000px) and (orientation: portrait){
-#everything { position: absolute;  zoom: 200%; left:10px; top: 10px; }
-#base { overflow: auto; overflow: scroll; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+#base { position: absolute; zoom: 100%;}
 }
 @media screen and (min-width: 3000px) and (orientation: landscape){
-#everything { position: absolute; zoom: 260%;
+#base { position: absolute; zoom: 260%;
 	left:430px;
 	top:30px; }
 }
 
 @media screen and (max-width: 1000px) and (orientation: landscape){
-#everything { position: absolute;  zoom: 90%; left:250px; top: -10px; }
-#base { overflow: auto; overflow: scroll; }
+#base { zoom: 90%; left:250px; top: -10px; overflow: auto; overflow: scroll; }
 }
 
 #text {
@@ -159,7 +150,7 @@ z-index: 4;
 
 
 <br><br><br><br><br>
-<div id="everything">
+
 <div id="base">
 <img src="https://i.imgur.com/pwKYUgO.png">
 
