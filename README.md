@@ -2,4 +2,5 @@
   \
  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌꒰ ‌ 𝑚𝑦 𝑤𝑒𝑏 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙𝑠 : ‌ sozai.pooftie.me ‌ ꒱\
   \
-<img width="400" height="230" src="https://middlepot.com/img/materials.jpg">
+<a href="https://sozai.pooftie.me"><img width="400" height="230" src="https://middlepot.com/img/materials.jpg"></a>
+
