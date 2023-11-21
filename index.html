@@ -139,11 +139,11 @@ z-index: 2;
 }
 
 @supports not (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #base { zoom: 200%; left:-5px; top: 80px; overflow: auto; overflow: scroll; }
 }}
 @supports (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #base { zoom: 150%; left:5px; top: 10px; overflow: auto; overflow: scroll; }
 html{-webkit-text-size-adjust: 145%; text-size-adjust: 145%; line-height: 8px !important;}
 #hi{line-height: 10px !important;}
@@ -161,7 +161,7 @@ html{-webkit-text-size-adjust: 145%; text-size-adjust: 145%; line-height: 8px !i
 }
 
 @media screen and (min-width: 2000px) and (orientation: landscape){
-#base { position: absolute; zoom: 100%;}
+#base { position: absolute; zoom: 170%;}
 }
 
 @supports (-webkit-touch-callout: none) {
